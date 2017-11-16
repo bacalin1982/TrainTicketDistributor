@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510766869975_1" label="TP" name="TP">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/elevator/model/Elevator.sct" type="1"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510766482975_0" label="Window Working Set" name="Aggregate for window 1510766482974"/>
+<mruList name="TP"/>
+</workingSetManager>

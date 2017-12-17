@@ -1,0 +1,37 @@
+Nom: Acheter des pass
+But: Le naveteur achete un pass
+Acteur(s): Le naveteur
+Condition(s) préalable(s):
+- Propose au naveteur un pass en deuxième classe
+Hypothèse(s):
+- Choisir le type de pass (pass pour 10 trajets entre deux gares prédéfinies, pass de 10 trajets sans réduction de trajet, pass permettant de voyager x jours sans restriction de trajet)
+- A chaque modification, le prix est mis à jour
+- A tout moment, le naveteur peut annuler l'achat de pass
+
+Fréquence d'utilisation: - 1000 fois par jour
+
+Cas "pass pour 10 trajets entre deux gares prédéfinies" d'utilisation:
+1.	Choisir une gare source et une gare de destination
+2.  Introduire son nom
+3.  Modifier ou non la classe du billet (première ou deuxième)
+4.  Introduire une réduction
+5.  Payer
+
+Cas "pass de 10 trajets sans restriction de trajet" d'utilisation:
+1.  Introduire son nom
+2.  Modifier ou non la classe du billet (première ou deuxième)
+3.  Introduire une réduction
+4.  Payer
+
+Cas "pass permettant de voyager x jours sans restriction de trajet" d'utilisation:
+1.  Introduire le nombre de jour
+2.  Introduire son nom
+3.  Modifier ou non la classe du billet (première ou deuxième)
+4.  Introduire une réduction
+5.  Payer
+
+Condition(s) d'après:
+- L'écran demande une confirmation avant de lancer le payement
+
+Référence:
+- Payer voir cas d'utilisation "Payer"

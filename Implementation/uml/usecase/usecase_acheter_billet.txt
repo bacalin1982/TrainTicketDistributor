@@ -1,0 +1,26 @@
+Nom: Acheter des billets
+But: Le naveteur achete un ou plusieurs billets de trains
+Acteur(s): Le naveteur
+Condition(s) préalable(s):
+- Propose au naveteur un billet standart aller/retour en deuxième classe
+- La date de départ est initialisée au jour courant
+Hypothèse(s):
+- A chaque modification, le prix est mis à jour
+- A tout moment, le naveteur peut annuler l'achat de billets
+Fréquence d'utilisation: + de 1000 fois par jour
+
+Cas normale d'utilisation:
+1.	Choisir une gare source et une gare de destination
+2.  Modifier ou non la classe du billet (première ou deuxième)
+3.  Modifier ou non le trajet du billet (aller simple ou aller/retour)
+4.  Modifier ou non le nombre de billet
+5.  Modifier ou non la date de départ
+6.  Modifier ou non le type de billet (standart, senior:+65, junior:-26, enfant:-12,billets spéciaux pour excurtion, billets vélo, ...)
+7.  Introduire une réduction
+8.  Payer
+
+Condition(s) d'après:
+- L'écran demande une confirmation avant de lancer le payement
+
+Référence:
+- Payer voir cas d'utilisation "Payer"

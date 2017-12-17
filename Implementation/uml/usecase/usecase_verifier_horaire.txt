@@ -1,0 +1,21 @@
+Nom: Vérifier horaire
+But: Le naveteur vérifie les horaires de trains
+Acteur(s): Le naveteur
+condition(s) préalable(s): La date doit être initialisée à maintenant
+Hypothèse(s): -
+Fréquence d'utilisation: + 1000 fois par jour
+
+Cas normale d'utilisation:
+1.	Choisir une gare source ou une gare de destination
+2.	Modifier ou non la date préalablement initialisée à la date de mainetant
+3.	Affichage les horaire des trains de la gares source ou de destination
+4.  Lancer la recherche
+
+Cas alternatif d'utilisation:
+1.  Choisir une gare source et une gare de destination
+2.  Modifier ou non la date préalablement initialisée à la date de mainetant
+3.  Afficher les horaires des trains entre les deux gares
+4.  Lancer la recherche
+
+Condition(s) d'après:
+- L'écran est rafraichi avec le résultat de la recherche

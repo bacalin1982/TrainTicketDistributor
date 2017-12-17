@@ -1,0 +1,27 @@
+Nom: Renouveller des abonnements
+But: Le naveteur renouvelle son abonnement de train
+Acteur(s): Le naveteur
+Condition(s) préalable(s):
+- Propose au naveteur un renouvellement d'abonnement de 12 mois
+Hypothèse(s):
+- Le distributeur doit avoir un CodeScanner
+- A chaque modification, le prix est mis à jour
+- A tout moment, le naveteur peut annuler l'achat d'abonnement
+
+Fréquence d'utilisation: - de 500 fois par jour
+
+Cas normale d'utilisation:
+1.  Scanne le code barre de l'abonnement
+2.  Modifie la période de validité de l'extention (1, 2, 6 ou 12 mois)
+3.  Payer
+
+Cas "CodeScanner est en panne" d'utilisation:
+1.  Introduire le numéro de l'abonnement
+2.  Modifie la période de validité de l'extention (1, 2, 6 ou 12 mois)
+3.  Payer
+
+Condition(s) d'après:
+- L'écran demande une confirmation avant de lancer le payement
+
+Référence:
+- Payer voir cas d'utilisation "Payer"

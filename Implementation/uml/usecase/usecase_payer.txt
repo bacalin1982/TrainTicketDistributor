@@ -1,0 +1,33 @@
+Nom: Payer
+But: Le naveteur paye ce qu'il a demandé
+Acteur(s): Le naveteur, Système banquaire
+Condition(s) préalable(s):
+- Propose au naveteur un renouvellement d'abonnement de 12 mois
+Hypothèse(s):
+- Le distributeur doit avoir un CardReader, un CoinSlot ou un BillSlot actif
+- A tout moment, le naveteur peut annuler l'achat d'abonnement
+
+Fréquence d'utilisation: - de 500 fois par jour
+
+Cas "CardReader" d'utilisation:
+1.  Introduire la carte
+2.  Introduire le code PIN si montant > 5€
+3.  Envoie la demande à la banque et on reçois une confirmation
+4.  Ejecter carte
+5.  Demande si besoin d'un reçu
+6.  Impression des billets et de reçu si nécéssaire
+
+Cas "CoinSlot ou BillSlot avec pièce en stock" d'utilisation:
+1.  Introduire les pièces ou les billets
+2.  Vérifie le stock de pièce
+3.  Demande si besoin d'un reçu
+4.  Impression des billets et de reçu si nécéssaire
+
+Cas "CoinSlot ou BillSlot sans pièce en stock" d'utilisation:
+1.  Introduire les pièces ou les billets
+2.  Vérifie le stock de pièce
+3.  Rendre tout l'argent
+4.  Choisir un autre mode de paiement
+
+Condition(s) d'après:
+- Les billets sont déposé dans le ReceptionSlot
